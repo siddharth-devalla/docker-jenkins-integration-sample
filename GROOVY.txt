@@ -1,0 +1,27 @@
+DECLARATIVE :
+
+pipeline {
+    agent any
+    stages {
+        stage("build"){
+            steps {
+                echo "hai"
+            }
+        }
+    }
+}
+
+-----------------------------
+SCRIPTED: 
+
+node {
+    stage ("stage1"){
+        echo "hai"
+    }
+    stage ("stage1"){
+        echo "hello"
+    }
+}
+
+------------------------
+LINK: https://www.jenkins.io/doc/book/pipeline/
