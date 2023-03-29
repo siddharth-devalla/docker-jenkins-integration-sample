@@ -25,5 +25,3 @@ node {
 
 ------------------------
 LINK: https://www.jenkins.io/doc/book/pipeline/
-
-#added
